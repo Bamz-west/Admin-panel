@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Header = ({ title, category }) => {
   return (
     <div className="mb-10">
