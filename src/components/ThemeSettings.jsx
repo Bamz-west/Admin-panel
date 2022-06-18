@@ -15,8 +15,8 @@ const ThemeSettings = () => {
         <div className="flex justify-between items-center p-4 ml-4">
           <p className="font-semibold text-xl">Settings</p>
 
-          <button type="button" onClick={() => setThemeSettings(false)} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }}>
-            <MdOutlineCancel className="text-2xl hover:drop-shadow-xl hover:bg-light-gray hover:dark:bg-[#484B52]" />
+          <button type="button" onClick={() => setThemeSettings(false)} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }} className="p-3 hover:drop-shadow-xl hover:dark:bg-light-gray hover:bg-slate-100">
+            <MdOutlineCancel className="text-2xl" />
           </button>
         </div>
 

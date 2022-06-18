@@ -13,8 +13,8 @@ const UserProfile = () => {
       <div className="flex justify-between items-center">
         <p className="font-semibold text-lg dark:text-gray-200">User Profile</p>
         
-        <button type="button" onClick={() => handleClose("userProfile")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }}>
-          <MdOutlineCancel className="text-2xl hover:drop-shadow-xl hover:bg-light-gray hover:dark:bg-[#484B52]" />
+        <button type="button" onClick={() => handleClose("userProfile")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }} className="p-3 hover:drop-shadow-xl hover:dark:bg-light-gray hover:bg-slate-100">
+          <MdOutlineCancel className="text-2xl" />
         </button>
       </div>
       <div className="flex gap-5 items-center mt-6 border-color border-b-1 pb-6">

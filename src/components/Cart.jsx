@@ -15,8 +15,8 @@ const Cart = () => {
         <div className="flex justify-between items-center">
           <p className="font-semibold text-lg">Shopping Cart</p>
           
-          <button type="button" onClick={() => handleClose("cart")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }}>
-            <MdOutlineCancel className="text-2xl hover:drop-shadow-xl hover:bg-light-gray hover:dark:bg-[#484B52]" />
+          <button type="button" onClick={() => handleClose("cart")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }} className="p-3 hover:drop-shadow-xl hover:dark:bg-light-gray hover:bg-slate-100">
+            <MdOutlineCancel className="text-2xl" />
           </button>
         </div>
         {cartData?.map((item, index) => (

@@ -16,8 +16,8 @@ const Notification = () => {
           <button type="button" className="text-white text-xs rounded p-1 px-2 bg-orange-theme "> 5 New</button>
         </div>
         
-        <button type="button" onClick={() => handleClose("notification")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }}>
-          <MdOutlineCancel className="text-2xl hover:drop-shadow-xl hover:bg-light-gray hover:dark:bg-[#484B52]" />
+        <button type="button" onClick={() => handleClose("notification")} style={{ color: "rgb(153, 171, 180)", borderRadius: "50%" }} className="p-3 hover:drop-shadow-xl hover:dark:bg-light-gray hover:bg-slate-100">
+          <MdOutlineCancel className="text-2xl" />
         </button>
       </div>
       <div className="mt-5 ">
